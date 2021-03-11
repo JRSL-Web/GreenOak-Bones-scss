@@ -1,6 +1,8 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Green Oak PCC Ltd.
+Site URL: https://greenoakpcc.com/
+Author: JRSL
+Last Updated: 2021.03.11
 
 Stylesheet: Variables
 
@@ -14,6 +16,7 @@ No one likes a mess.
 /*********************
 COLORS
 Need help w/ choosing your colors? Try this site out:
+（あなたの色を選ぶのに助けが必要ですか？ このサイトを試してみてください）
 http://0to255.com/
 *********************/
 
@@ -33,6 +36,8 @@ $meta-gray:         #9fa6b4;
 $tan:               #eceee5;
 
 $green:             #7dd667;
+$pcc-green:         #217467;          
+$dark-green:        #005452;
 
 $bones-pink:        #f01d4f;
 $blue:              #2980b9;
@@ -47,5 +52,6 @@ $disabled-gray:     #cfcfcf;
 /*
 Here's a great tutorial on how to
 use color variables properly:
+（これが方法に関する素晴らしいチュートリアルです。色変数を適切に使用する）
 http://sachagreif.com/sass-color-variables/
 */

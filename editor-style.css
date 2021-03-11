@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /******************************************************************
 Site Name:
 Author:
@@ -188,8 +189,10 @@ use the best ampersand
 http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
   /******************************************************************
-Site Name:
-Author:
+Site Name: Green Oak PCC Ltd.
+Site URL: https://greenoakpcc.com/
+Author: JRSL
+Last Updated: 2021.03.11
 
 Stylesheet: Variables
 
@@ -202,11 +205,13 @@ No one likes a mess.
   /*********************
 COLORS
 Need help w/ choosing your colors? Try this site out:
+（あなたの色を選ぶのに助けが必要ですか？ このサイトを試してみてください）
 http://0to255.com/
 *********************/
   /*
 Here's a great tutorial on how to
 use color variables properly:
+（これが方法に関する素晴らしいチュートリアルです。色変数を適切に使用する）
 http://sachagreif.com/sass-color-variables/
 */
   /******************************************************************
