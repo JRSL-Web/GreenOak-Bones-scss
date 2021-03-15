@@ -1340,7 +1340,7 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 Site Name: Green Oak PCC Ltd.
 Site URL: https://greenoakpcc.com/
 Author: JRSL
-Last Updated: 2021.03.11
+Last Updated: 2021.03.15
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -1553,9 +1553,9 @@ POSTS & CONTENT STYLES
 
 .hentry {
   background-color: #fff;
-  border-radius: 3px;
-  margin-bottom: 1.5em;
-  border: 1px solid #ccc;
+  /*border-radius: 3px;
+			margin-bottom: 1.5em;
+			border: 1px solid $border-color;*/
 }
 
 .hentry header {
