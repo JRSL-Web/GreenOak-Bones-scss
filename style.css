@@ -1364,7 +1364,7 @@ h2, .h2 {
   margin-bottom: 0.375em; }
 
 h3, .h3 {
-  font-size: 1.125em; }
+  font-size: 1.6em; }
 
 h4, .h4 {
   font-size: 1.1em;
@@ -1416,7 +1416,7 @@ and more scalable.
       color: #217467;
       text-decoration: none;
       padding: 0.75rem;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       font-weight: bold;
       /*
       remember this is for mobile ONLY, so there's no need
@@ -1429,6 +1429,14 @@ and more scalable.
       padding-left: 30px; }
 
 /* end .nav */
+/*********************
+BREADCRUMB STYLES
+*********************/
+.breadcrumb {
+  padding: 0.75rem;
+  font-size: 1.4rem; }
+
+/* end .breadcrumb */
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -1480,6 +1488,10 @@ POSTS & CONTENT STYLES
   */ }
   .entry-content p {
     margin: 0 0 1.5em;
+    font-size: 1.4rem; }
+  .entry-content ul, .entry-content ol, .entry-content table, .entry-content dl {
+    margin: 0 0 1.5em; }
+  .entry-content ul li, .entry-content ol li {
     font-size: 1.4rem; }
   .entry-content table {
     width: 100%;
