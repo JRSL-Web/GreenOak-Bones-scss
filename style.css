@@ -1479,7 +1479,8 @@ POSTS & CONTENT STYLES
   but it's up to you. Feel free to change it up.
   */ }
   .entry-content p {
-    margin: 0 0 1.5em; }
+    margin: 0 0 1.5em;
+    font-size: 1.4rem; }
   .entry-content table {
     width: 100%;
     border: 1px solid #eaedf2;
