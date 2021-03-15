@@ -1412,7 +1412,8 @@ and more scalable.
       display: block;
       color: #217467;
       text-decoration: none;
-      padding: 0.75em;
+      padding: 0.75rem;
+      font-size: 1.2rem;
       /*
       remember this is for mobile ONLY, so there's no need
       to even declare hover styles here, you can do it in
