@@ -1355,6 +1355,9 @@ h1, .h1 {
   font-size: 2.5em;
   line-height: 1.333em; }
 
+#home h1 {
+  display: none; }
+
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
@@ -1413,7 +1416,8 @@ and more scalable.
       color: #217467;
       text-decoration: none;
       padding: 0.75rem;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
+      font-weight: bold;
       /*
       remember this is for mobile ONLY, so there's no need
       to even declare hover styles here, you can do it in
