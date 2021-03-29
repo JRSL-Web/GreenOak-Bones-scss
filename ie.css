@@ -427,7 +427,7 @@ mobile. Make sure to double check these!
 Site Name: Green Oak PCC Ltd.
 Site URL: https://greenoakpcc.com/
 Author: JRSL
-Last Updated: 2021.03.01
+Last Updated: 2021.03.29
 
 Stylesheet: Desktop Stylsheet
 
@@ -435,8 +435,25 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+/*********************
+POSTS & CONTENT STYLES
+*********************/
 .wrap {
   width: 1040px;
+}
+
+#services .article-header {
+  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/03/services_mv.png);
+  /* 背景画像指定 */
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 970px;
+  height: 600px;
+}
+
+#services .article-header h1.page-title {
+  color: #fff;
+  font-weight: bold;
 }
 
 /*

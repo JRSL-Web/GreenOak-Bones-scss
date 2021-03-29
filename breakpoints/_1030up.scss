@@ -2,7 +2,7 @@
 Site Name: Green Oak PCC Ltd.
 Site URL: https://greenoakpcc.com/
 Author: JRSL
-Last Updated: 2021.03.01
+Last Updated: 2021.03.29
 
 Stylesheet: Desktop Stylsheet
 
@@ -11,6 +11,23 @@ be seen on the Desktop.
 
 ******************************************************************/
 
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
 .wrap {
   width: 1040px;
+}
+
+#services .article-header {
+  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/03/services_mv.png); /* 背景画像指定 */
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 970px;
+  height: 600px;
+
+    h1.page-title {
+      color: $white;
+      font-weight: bold;
+    }
 }
