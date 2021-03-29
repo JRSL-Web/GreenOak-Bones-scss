@@ -51,6 +51,7 @@ POSTS & CONTENT STYLES
   background-position: left top;
   width: 970px;
   height: 600px;
+  padding: 0;
 
     h1.page-title {
       color: $white;
@@ -61,17 +62,83 @@ POSTS & CONTENT STYLES
 }
 
 .heading-area {
+  display: flex;
   width: 100%;
   height: auto;
 
   figure.image-box-left{
-    width: 50%;
+    width: 45%;
+    //display: inline-block;
+    margin: 0;
   }
 
+  .text-box-right {
+    position: relative;
+    width: 48%;
+    //display: inline-block;
+    font-size: 1.8rem;
+    
+      p {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        margin: 0;
+      }
+  }
+}
+
+#about .article-header {
+
   .tagline {
-    width: 50%;
-    font-size: 3.6rem;
+    width: 45%;
+    display: inline-block;
+    font-size: 2rem;
     color: $pcc-green;
     text-align: center;
   }
+
+}
+
+#home .catch-image-area,
+#services .catch-image-area {
+  display: flex;
+  width: 100%;
+  height: auto;
+
+  .catch-box-primary,
+  .catch-box-secondary,
+  .catch-box-tertiary {
+    position: relative;
+    width: 33.3%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+    .image-box-primary img,
+    .image-box-secondary img,
+    .image-box-tertiary img {
+      margin: 0;
+    }
+    .catch-contents-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+        .catch-title {
+          color: $white;
+          font-size: 1.7rem;
+          font-weight:bolder;
+          text-align: center;
+        }
+
+        .catch-lead,
+        .catch-link-detail {
+          color: $white;
+          font-size: 1.5rem;
+          font-weight: normal;
+          text-align: center;
+          padding: 1rem;
+        }
+    }
 }
