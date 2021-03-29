@@ -59,3 +59,19 @@ POSTS & CONTENT STYLES
       padding-left: 50px;
     }
 }
+
+.heading-area {
+  width: 100%;
+  height: auto;
+
+  figure.image-box-left{
+    width: 50%;
+  }
+
+  .tagline {
+    width: 50%;
+    font-size: 3.6rem;
+    color: $pcc-green;
+    text-align: center;
+  }
+}

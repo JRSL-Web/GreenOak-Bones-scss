@@ -480,6 +480,22 @@ POSTS & CONTENT STYLES
   padding-left: 50px;
 }
 
+.heading-area {
+  width: 100%;
+  height: auto;
+}
+
+.heading-area figure.image-box-left {
+  width: 50%;
+}
+
+.heading-area .tagline {
+  width: 50%;
+  font-size: 3.6rem;
+  color: #217467;
+  text-align: center;
+}
+
 /*
 you can call the larger styles if you want, but there's really no need
 */
