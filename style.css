@@ -1590,6 +1590,13 @@ POSTS & CONTENT STYLES
   margin: 0;
 }
 
+#services .article-header {
+  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/03/services_mv.png);
+  /* 背景画像指定 */
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
