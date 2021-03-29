@@ -12,6 +12,32 @@ be seen on the Desktop.
 ******************************************************************/
 
 /*********************
+NAVIGATION STYLES
+*********************/
+
+.nav {
+	border-bottom: 0;
+	margin: 0;
+
+	li {
+
+		a {
+			display: block;
+			color: $dark-green;
+			text-decoration: none;
+			padding: 0.75rem;
+			font-size: 1.6rem;
+			font-weight: bold;
+
+			&:hover, &:focus {
+        background-color: $dark-green;
+        color: $white;
+			}
+		}
+  }
+}
+
+/*********************
 POSTS & CONTENT STYLES
 *********************/
 
@@ -29,5 +55,7 @@ POSTS & CONTENT STYLES
     h1.page-title {
       color: $white;
       font-weight: bold;
+      padding-top: 50px;
+      padding-left: 50px;
     }
 }

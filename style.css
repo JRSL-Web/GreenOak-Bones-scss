@@ -2295,6 +2295,25 @@ be seen on the Desktop.
 
 ******************************************************************/
   /*********************
+NAVIGATION STYLES
+*********************/
+  .nav {
+    border-bottom: 0;
+    margin: 0;
+  }
+  .nav li a {
+    display: block;
+    color: #217467;
+    text-decoration: none;
+    padding: 0.75rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .nav li a:hover, .nav li a:focus {
+    background-color: #217467;
+    color: #fff;
+  }
+  /*********************
 POSTS & CONTENT STYLES
 *********************/
   .wrap {
@@ -2311,6 +2330,8 @@ POSTS & CONTENT STYLES
   #services .article-header h1.page-title {
     color: #fff;
     font-weight: bold;
+    padding-top: 50px;
+    padding-left: 50px;
   }
 }
 
