@@ -2436,10 +2436,10 @@ POSTS & CONTENT STYLES
     color: #fff;
     font-size: 1.6rem;
   }
-  #home .icon-box .icon-image:hover figcaption {
+  #home .icon-box .icon-image .icon-image:hover figcaption {
     opacity: 1;
   }
-  #home .icon-box .icon-title {
+  #home .icon-box .icon-image .icon-title {
     display: block;
     text-align: center;
   }
