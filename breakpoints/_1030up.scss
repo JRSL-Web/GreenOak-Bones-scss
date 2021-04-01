@@ -112,6 +112,55 @@ span .contents-title {
   }
 }
 
+#home .icon-box {
+  display: flex;
+  flex-wrap:wrap;
+  //height: 250px;
+  //width: 330px;
+
+  .icon-image {
+    position: relative;
+    overflow: hidden;
+    width: 330px;
+
+      img {
+      }
+
+      figcaption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        /*height: 250px;
+        width: 330px;*/
+        background: rgba(0,84,82,1);
+        -webkit-transition: .3s;
+        transition: .3s;
+        opacity: 1;
+        //opacity: 0;
+
+        &:h3 {
+          color: $white;
+          font-size: 2.2rem;
+          font-weight: bold;
+        }
+
+        &:p {
+          color: $white;
+          font-size: 1.6rem;
+        }
+      }
+  }
+  .icon-image:hover figcaption {
+    opacity: 1;
+  }
+
+  .icon-title {
+    display: block;
+    text-align: center;
+  }
+}
+
 #home .catch-image-area,
 #services .catch-image-area {
   display: flex;
