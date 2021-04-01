@@ -45,22 +45,6 @@ POSTS & CONTENT STYLES
   width: 1040px;
 }
 
-#services .article-header {
-  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/03/services_mv.png); /* 背景画像指定 */
-  background-repeat: no-repeat;
-  background-position: left top;
-  width: 970px;
-  height: 600px;
-  padding: 0;
-
-    h1.page-title {
-      color: $white;
-      font-weight: bold;
-      padding-top: 50px;
-      padding-left: 50px;
-    }
-}
-
 .heading-area {
   display: flex;
   width: 100%;
@@ -68,7 +52,6 @@ POSTS & CONTENT STYLES
 
   figure.image-box-left{
     width: 45%;
-    //display: inline-block;
     margin: 0;
   }
 
@@ -87,23 +70,53 @@ POSTS & CONTENT STYLES
   }
 }
 
-#about .article-header {
+.contents-area {
+  display: flex;
+  margin: 3rem 0;
+  width: 1040px;
+}
 
-  .tagline {
-    width: 45%;
-    display: inline-block;
-    font-size: 2rem;
-    color: $pcc-green;
-    text-align: center;
+span .contents-title {
+  display: block;
+  text-align: center;
+}
+
+.fig-left {
+  width: 50%;
+}
+
+.contents-area-inner {
+  width: 50%;
+}
+
+#home .list-area {
+  display: flex;
+  flex-wrap:wrap;
+  height: auto;
+  text-align: center;
+  width: 1040px;
+
+  li {
+    margin: 10px;
+    //text-align: center;
+    height: 150px;
+    width: 240px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
-
 }
 
 #home .catch-image-area,
 #services .catch-image-area {
   display: flex;
-  width: 100%;
   height: auto;
+  width: 100%;
 
   .catch-box-primary,
   .catch-box-secondary,
@@ -137,8 +150,36 @@ POSTS & CONTENT STYLES
           color: $white;
           font-size: 1.5rem;
           font-weight: normal;
-          text-align: center;
           padding: 1rem;
+          text-align: center;
         }
     }
+}
+
+#services .article-header {
+  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/03/services_mv.png); /* 背景画像指定 */
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 600px;
+  padding: 0;
+  width: 970px;
+
+    h1.page-title {
+      color: $white;
+      font-weight: bold;
+      padding-top: 50px;
+      padding-left: 50px;
+    }
+}
+
+#about .article-header {
+
+  .tagline {
+    width: 45%;
+    display: inline-block;
+    font-size: 2rem;
+    color: $pcc-green;
+    text-align: center;
+  }
+
 }
