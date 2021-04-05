@@ -115,29 +115,34 @@ span .contents-title {
 #home .icon-box {
   display: flex;
   flex-wrap:wrap;
-  //height: 250px;
-  //width: 330px;
 
   .icon-image {
     position: relative;
     overflow: hidden;
+    height: 250px;
     width: 330px;
-
-      img {
-      }
+    margin-bottom: 10px;
 
       figcaption {
         position: absolute;
         top: 0;
+        bottom: 0;
         left: 0;
+        right: 0;
         z-index: 2;
-        /*height: 250px;
-        width: 330px;*/
+        height: 250px;
+        width: 330px;
         background: rgba(0,84,82,1);
         -webkit-transition: .3s;
         transition: .3s;
-        opacity: 1;
         //opacity: 0;
+        opacity: 1;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        transition:all 0.6s ease;
 
         &:h3 {
           color: $white;
@@ -150,9 +155,9 @@ span .contents-title {
           font-size: 1.6rem;
         }
       }
-      .icon-image:hover figcaption {
+      /*.icon-image:hover figcaption {
         opacity: 1;
-      }
+      }*/
 
     .icon-title {
         display: block;
