@@ -537,13 +537,10 @@ span .contents-title {
 }
 
 #home .icon-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: inline-block;
   height: 250px;
   width: 300px;
+  margin: 0 15px;
 }
 
 #home .icon-box .icon-image {
@@ -560,6 +557,14 @@ span .contents-title {
           align-items: center;
 }
 
+#home .icon-box .icon-image img {
+  position: absolute;
+  height: 150px;
+  width: 120px;
+  top: 20%;
+  left: 30%;
+}
+
 #home .icon-box .icon-image figcaption {
   position: absolute;
   top: 0;
@@ -570,6 +575,7 @@ span .contents-title {
   height: 250px;
   width: 300px;
   background: #005452;
+  border-radius: 5px;
   -webkit-transition: .3s;
   transition: .3s;
   opacity: 0;

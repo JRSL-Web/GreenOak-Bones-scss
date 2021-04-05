@@ -113,10 +113,12 @@ span .contents-title {
 }
 
 #home .icon-box {
-  display: flex;
-  flex-wrap:wrap;
+  display: inline-block;
+  //display: flex;
+  //flex-wrap:wrap;
   height: 250px;
   width: 300px;
+  margin: 0 15px;
 
   .icon-image {
     position: relative;
@@ -124,10 +126,16 @@ span .contents-title {
     height: 250px;
     width: 300px;
     margin-bottom: 10px;
-    //display: flex;
-    //flex-wrap:wrap;
     justify-content: center;
     align-items: center;
+
+      img {
+        position: absolute;
+        height: 150px;
+        width: 120px;
+        top: 20%;
+        left: 30%;
+      }
 
       figcaption {
         position: absolute;
@@ -139,11 +147,11 @@ span .contents-title {
         height: 250px;
         width: 300px;
         background: rgba(0,84,82,1);
+        border-radius: 5px;
         -webkit-transition: .3s;
         transition: .3s;
         opacity: 0;
         color: #fff;
-        //display: flex;
         align-items: center;
         text-align: center;
         padding: 30px;
