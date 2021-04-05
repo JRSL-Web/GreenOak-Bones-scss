@@ -73,6 +73,7 @@ POSTS & CONTENT STYLES
 .contents-area {
   display: flex;
   margin: 3rem 0;
+  height: auto;
   width: 1040px;
 }
 
@@ -89,6 +90,12 @@ span .contents-title {
   width: 50%;
 }
 
+#home .image-area {
+  height: 730px;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
 #home .list-area {
   display: flex;
   flex-wrap:wrap;
@@ -98,7 +105,6 @@ span .contents-title {
 
   li {
     margin: 10px;
-    //text-align: center;
     height: 150px;
     width: 240px;
 
@@ -114,11 +120,9 @@ span .contents-title {
 
 #home .icon-box {
   display: inline-block;
-  //display: flex;
-  //flex-wrap:wrap;
   height: 250px;
   width: 300px;
-  margin: 0 15px;
+  margin: 0 20px;
 
   .icon-image {
     position: relative;
@@ -174,6 +178,37 @@ span .contents-title {
         transition:all 0.6s ease;
       }
   }
+}
+
+#home .item-box {
+  display: inline-block;
+  height: 340px;
+  width: 300px;
+  background-color: $white;
+  //border: solid 1px gray;
+  border-radius: 5px;
+  box-shadow: 0 0 8px gray;
+  //box-shadow: 2px 2px 4px gray;
+  margin: 0 20px;
+  padding: 2rem;
+
+    .item-title {
+      color: #324158;
+      font-size: 2.3rem;
+      font-weight: bold;
+      margin: 1rem auto;
+      text-align: center;
+    }
+    p {
+      color: #5c6b80;
+      font-size: 1.6rem;
+      line-height: 1.8;
+      text-align: center;
+    }
+}
+
+#home .item-box-right {
+  margin-left: 5rem;
 }
 
 #home .catch-image-area,

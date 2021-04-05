@@ -2370,6 +2370,7 @@ POSTS & CONTENT STYLES
     display: -ms-flexbox;
     display: flex;
     margin: 3rem 0;
+    height: auto;
     width: 1040px;
   }
   span .contents-title {
@@ -2381,6 +2382,11 @@ POSTS & CONTENT STYLES
   }
   .contents-area-inner {
     width: 50%;
+  }
+  #home .image-area {
+    height: 730px;
+    width: 100%;
+    margin-bottom: 3rem;
   }
   #home .list-area {
     display: -webkit-box;
@@ -2407,7 +2413,7 @@ POSTS & CONTENT STYLES
     display: inline-block;
     height: 250px;
     width: 300px;
-    margin: 0 15px;
+    margin: 0 20px;
   }
   #home .icon-box .icon-image {
     position: relative;
@@ -2465,6 +2471,33 @@ POSTS & CONTENT STYLES
     opacity: 1;
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
+  }
+  #home .item-box {
+    display: inline-block;
+    height: 340px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 8px gray;
+            box-shadow: 0 0 8px gray;
+    margin: 0 20px;
+    padding: 2rem;
+  }
+  #home .item-box .item-title {
+    color: #324158;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  #home .item-box p {
+    color: #5c6b80;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    text-align: center;
+  }
+  #home .item-box-right {
+    margin-left: 5rem;
   }
   #home .catch-image-area,
   #services .catch-image-area {
