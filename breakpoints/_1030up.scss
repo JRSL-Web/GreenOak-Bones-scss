@@ -290,19 +290,21 @@ span .contents-title {
 }
 
 #services .article-header {
-  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/03/services_mv.png); /* 背景画像指定 */
-  background-repeat: no-repeat;
+  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/04/services_mv.png); /* 背景画像指定 */
   background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 600px;
   margin: 0 auto;
   padding: 0;
-  width: 970px;
+  width: 100%;
 
     h1.page-title {
       color: $white;
+      font-size: 3.5rem;
       font-weight: bold;
-      padding-top: 50px;
-      padding-left: 50px;
+      padding-top: 100px;
+      padding-left: 100px;
     }
 }
 
@@ -313,19 +315,35 @@ span .contents-title {
 
 #about .article-header {
   background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/04/about_mv.png);
-  background-repeat: no-repeat;
   background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 600px;
   margin: 0 auto;
   padding: 0;
-  width: 970px;
+  width: 100%;
+
+  h1.page-title {
+    color: #2f2e2e;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+
+}
+
+#about .heading-area {
+  margin: 3rem auto;
+  width: 1040px;
 
   .tagline {
-    width: 45%;
+    width: 48%;
     display: inline-block;
     font-size: 2rem;
     color: $pcc-green;
     text-align: center;
   }
-
 }
+
+
