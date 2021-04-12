@@ -75,13 +75,24 @@ POSTS & CONTENT STYLES
   margin: 3rem auto;
   height: auto;
   width: 1040px;
-}
 
+  .content-title {
+    color: $dark-green;
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+
+  p {
+    color: $text-color;
+    font-size: 2rem;
+  }
+}
+/*
 span .contents-title {
   display: block;
   text-align: center;
 }
-
+*/
 .image-area {
   margin: 3rem auto;
   width: 1040px;
@@ -94,6 +105,10 @@ span .contents-title {
 .contents-area-inner {
   width: 50%;
 }
+
+/* ==================
+  HOME STYLES
+=================== */
 
 #home .heading-area {
   position: relative;
@@ -113,13 +128,13 @@ span .contents-title {
 
       .heading-title {
         color: $white;
-        font-size: 2rem;
-        font-weight: bold;
+        font-size: 3.5rem;
+        font-weight: bolder;
       }
 
       p {
         color: $white;
-        font-size: 1.6rem;
+        font-size: 2rem;
       }
   }
 }
@@ -130,6 +145,15 @@ span .contents-title {
   margin-bottom: 3rem;
 }
 */
+
+#home span .contents-title {
+  color: $dark-green;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  display: block;
+  text-align: center;
+}
+
 #home .list-area {
   display: flex;
   flex-wrap:wrap;
@@ -138,6 +162,8 @@ span .contents-title {
   width: 1040px;
 
   li {
+    color: $text-color;
+    font-size: 2rem;
     margin: 10px;
     height: 150px;
     width: 240px;
@@ -192,22 +218,23 @@ span .contents-title {
         color: #fff;
         align-items: center;
         text-align: center;
-        padding: 30px;
+        padding: 20px;
         transition:all 0.6s ease;
 
-        &:h3 {
+        h3 {
           color: $white;
           font-size: 2.2rem;
           font-weight: bold;
           //display: inline;
         }
 
-        &:p {
+        p {
           color: $white;
           font-size: 1.6rem;
         }
       }
       figcaption:hover {
+        color: $white;
         opacity: 1;
         transition:all 0.6s ease;
       }
@@ -245,6 +272,9 @@ span .contents-title {
   margin-left: 5rem;
 }
 
+/* ======================
+  HOME & SERVICES STYLES
+======================= */
 #home .catch-image-area,
 #services .catch-image-area {
   display: flex;
@@ -289,6 +319,10 @@ span .contents-title {
     }
 }
 
+/* ==================
+  SERVICES STYLES
+=================== */
+
 #services .article-header {
   background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/04/services_mv.png); /* 背景画像指定 */
   background-position: left top;
@@ -312,6 +346,11 @@ span .contents-title {
   margin: 3rem auto;
   width: 1040px;
 }
+
+
+/* ==================
+  ABOUT STYLES
+=================== */
 
 #about .article-header {
   background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/04/about_mv.png);
@@ -347,3 +386,31 @@ span .contents-title {
 }
 
 
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/04/footer_bg.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 633px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+
+  #inner-footer .copyright {
+    color: $white;
+    font-size: 1.4rem;
+    margin: 0;
+    padding-top: 600px;
+    text-align: center;
+    text-decoration: none;
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
