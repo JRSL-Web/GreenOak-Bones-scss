@@ -293,11 +293,10 @@ span .contents-title {
   background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/03/services_mv.png); /* 背景画像指定 */
   background-repeat: no-repeat;
   background-position: left top;
-  //height: 600px;
-  height: auto;
+  height: 600px;
+  margin: 0 auto;
   padding: 0;
-  width: 100%;
-  //width: 970px;
+  width: 970px;
 
     h1.page-title {
       color: $white;
@@ -307,7 +306,19 @@ span .contents-title {
     }
 }
 
+#services .heading-area {
+  margin: 3rem auto;
+  width: 1040px;
+}
+
 #about .article-header {
+  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/04/about_mv.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  width: 970px;
 
   .tagline {
     width: 45%;
