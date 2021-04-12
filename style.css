@@ -2310,7 +2310,7 @@ you can add resource intensive styles.
 Site Name: Green Oak PCC Ltd.
 Site URL: https://greenoakpcc.com/
 Author: JRSL
-Last Updated: 2021.04.05
+Last Updated: 2021.04.12
 
 Stylesheet: Desktop Stylsheet
 
@@ -2369,7 +2369,7 @@ POSTS & CONTENT STYLES
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 3rem 0;
+    margin: 3rem auto;
     height: auto;
     width: 1040px;
   }
@@ -2377,17 +2377,46 @@ POSTS & CONTENT STYLES
     display: block;
     text-align: center;
   }
+  .image-area {
+    margin: 3rem auto;
+    width: 1040px;
+  }
   .fig-left {
     width: 50%;
   }
   .contents-area-inner {
     width: 50%;
   }
-  #home .image-area {
-    height: 730px;
+  #home .heading-area {
+    position: relative;
     width: 100%;
-    margin-bottom: 3rem;
+    height: auto;
   }
+  #home .heading-area #home .heading-image-box {
+    max-width: 2400px;
+    height: auto;
+  }
+  #home .heading-area #home .tagline {
+    position: absolute;
+    top: 50;
+    left: 50;
+  }
+  #home .heading-area #home .tagline .heading-title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  #home .heading-area #home .tagline p {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  /*
+#home .image-area {
+  height: 730px;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+*/
   #home .list-area {
     display: -webkit-box;
     display: -ms-flexbox;
