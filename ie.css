@@ -101,8 +101,8 @@ p {
   word-break: break-word;
   word-wrap: break-word;
   -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-      hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
   -webkit-hyphenate-before: 2;
   -webkit-hyphenate-after: 3;
   hyphenate-lines: 3;
@@ -110,8 +110,7 @@ p {
    -moz-font-feature-settings: "liga=1, dlig=1";
       -ms-font-feature-settings: "liga", "dlig";
        -o-font-feature-settings: "liga", "dlig";
-          font-feature-settings: "liga", "dlig";*/
-}
+          font-feature-settings: "liga", "dlig";*/ }
 
 /******************************************************************
 Site Name:
@@ -198,27 +197,20 @@ NAVIGATION STYLES
 *********************/
 /* .menu is clearfixed inside mixins.scss */
 .menu {
-  /* end .menu ul */
-}
-
-.menu ul {
-  /* end .menu ul li */
-  /* highlight current page */
-  /* end current highlighters */
-}
-
-.menu ul li {
-  /*
-				plan your menus and drop-downs wisely.
-				*/
-}
-
-.menu ul li a {
-  /*
-					you can use hover styles here even though this size
-					has the possibility of being a mobile device.
-					*/
-}
+  /* end .menu ul */ }
+  .menu ul {
+    /* end .menu ul li */
+    /* highlight current page */
+    /* end current highlighters */ }
+    .menu ul li {
+      /*
+      plan your menus and drop-downs wisely.
+      */ }
+      .menu ul li a {
+        /*
+        you can use hover styles here even though this size
+        has the possibility of being a mobile device.
+        */ }
 
 /* end .menu */
 /*********************
@@ -226,27 +218,20 @@ POSTS & CONTENT STYLES
 *********************/
 /* entry content */
 .entry-content {
-  /* at this larger size, we can start to align images */
-}
-
-.entry-content .alignleft, .entry-content img.alignleft {
-  margin-right: 1.5em;
-  display: inline;
-  float: left;
-}
-
-.entry-content .alignright, .entry-content img.alignright {
-  margin-left: 1.5em;
-  display: inline;
-  float: right;
-}
-
-.entry-content .aligncenter, .entry-content img.aligncenter {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  clear: both;
-}
+  /* at this larger size, we can start to align images */ }
+  .entry-content .alignleft, .entry-content img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left; }
+  .entry-content .alignright, .entry-content img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right; }
+  .entry-content .aligncenter, .entry-content img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both; }
 
 /* end .entry-content */
 /*********************
@@ -279,8 +264,7 @@ GENERAL STYLES
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 760px;
-}
+  width: 760px; }
 
 /*********************
 HEADER STYLES
@@ -292,108 +276,80 @@ NAVIGATION STYLES
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
-  /* end current highlighters */
-}
-
-.nav ul {
-  background: #323944;
-  margin-top: 0;
-}
-
-.nav li {
-  float: left;
-  position: relative;
-  /*
-		plan your menus and drop-downs wisely.
-		*/
-  /* showing sub-menus */
-}
-
-.nav li a {
-  border-bottom: 0;
-  /*
-			you can use hover styles here even though this size
-			has the possibility of being a mobile device.
-			*/
-}
-
-.nav li a:hover, .nav li a:focus {
-  background-color: #217467;
-  color: #fff;
-}
-
-.nav li ul.sub-menu,
-.nav li ul.children {
-  margin-top: 0;
-  border: 1px solid #ccc;
-  border-top: 0;
-  position: absolute;
-  visibility: hidden;
-  z-index: 8999;
-  /* highlight sub-menu current page */
-}
-
-.nav li ul.sub-menu li,
-.nav li ul.children li {
-  /*
-				if you need to go deeper, go nuts
-				just remember deeper menus suck
-				for usability. k, bai.
-				*/
-}
-
-.nav li ul.sub-menu li a,
-.nav li ul.children li a {
-  padding-left: 10px;
-  border-right: 0;
-  display: block;
-  width: 180px;
-  border-bottom: 1px solid #ccc;
-}
-
-.nav li ul.sub-menu li:last-child a,
-.nav li ul.children li:last-child a {
-  border-bottom: 0;
-}
-
-.nav li ul.sub-menu li ul,
-.nav li ul.children li ul {
-  top: 0;
-  left: 100%;
-}
-
-.nav li:hover > ul {
-  top: auto;
-  visibility: visible;
-}
+  /* end current highlighters */ }
+  .nav ul {
+    background: #323944;
+    margin-top: 0; }
+  .nav li {
+    float: left;
+    position: relative;
+    /*
+    plan your menus and drop-downs wisely.
+    */
+    /* showing sub-menus */ }
+    .nav li a {
+      border-bottom: 0;
+      /*
+      you can use hover styles here even though this size
+      has the possibility of being a mobile device.
+      */ }
+      .nav li a:hover, .nav li a:focus {
+        background-color: #217467;
+        color: #fff; }
+    .nav li ul.sub-menu,
+    .nav li ul.children {
+      margin-top: 0;
+      border: 1px solid #ccc;
+      border-top: 0;
+      position: absolute;
+      visibility: hidden;
+      z-index: 8999;
+      /* highlight sub-menu current page */ }
+      .nav li ul.sub-menu li,
+      .nav li ul.children li {
+        /*
+        if you need to go deeper, go nuts
+        just remember deeper menus suck
+        for usability. k, bai.
+        */ }
+        .nav li ul.sub-menu li a,
+        .nav li ul.children li a {
+          padding-left: 10px;
+          border-right: 0;
+          display: block;
+          width: 180px;
+          border-bottom: 1px solid #ccc; }
+        .nav li ul.sub-menu li:last-child a,
+        .nav li ul.children li:last-child a {
+          border-bottom: 0; }
+        .nav li ul.sub-menu li ul,
+        .nav li ul.children li ul {
+          top: 0;
+          left: 100%; }
+    .nav li:hover > ul {
+      top: auto;
+      visibility: visible; }
 
 /* end .nav */
 /*********************
 SIDEBARS & ASIDES
 *********************/
 .sidebar {
-  margin-top: 2.2em;
-}
+  margin-top: 2.2em; }
 
 .widgettitle {
   border-bottom: 2px solid #444;
-  margin-bottom: 0.75em;
-}
+  margin-bottom: 0.75em; }
 
 .widget {
   padding: 0 10px;
-  margin: 2.2em 0;
-}
-
-.widget ul li {
-  margin-bottom: 0.75em;
-  /* deep nesting */
-}
-
-.widget ul li ul {
-  margin-top: 0.75em;
-  padding-left: 1em;
-}
+  margin: 2.2em 0; }
+  .widget ul li {
+    margin-bottom: 0.75em;
+    /* deep nesting */ }
+    .widget ul li ul {
+      margin-top: 0.75em;
+      padding-left: 1em; }
 
 /* links widget */
 /* meta widget */
@@ -416,11 +372,10 @@ mobile. Make sure to double check these!
 */
 .footer-links ul li {
   /*
-			be careful with the depth of your menus.
-			it's very rare to have multi-depth menus in
-			the footer.
-			*/
-}
+  be careful with the depth of your menus.
+  it's very rare to have multi-depth menus in
+  the footer.
+  */ }
 
 /* end .footer-links */
 /******************************************************************
@@ -440,110 +395,79 @@ NAVIGATION STYLES
 *********************/
 .nav {
   border-bottom: 0;
-  margin: 0;
-}
-
-.nav li a {
-  display: block;
-  color: #217467;
-  text-decoration: none;
-  padding: 0.75rem;
-  font-size: 1.6rem;
-  font-weight: bold;
-}
-
-.nav li a:hover, .nav li a:focus {
-  background-color: #217467;
-  color: #fff;
-}
+  margin: 0; }
+  .nav li a {
+    display: block;
+    color: #217467;
+    text-decoration: none;
+    padding: 0.75rem;
+    font-size: 1.6rem;
+    font-weight: bold; }
+    .nav li a:hover, .nav li a:focus {
+      background-color: #217467;
+      color: #fff; }
 
 /*********************
 POSTS & CONTENT STYLES
 *********************/
 .wrap {
-  width: 1040px;
-}
+  width: 1040px; }
 
 .heading-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: auto;
-}
-
-.heading-area figure.image-box-left {
-  width: 45%;
-  margin: 0;
-}
-
-.heading-area .text-box-right {
-  position: relative;
-  width: 48%;
-  font-size: 1.8rem;
-}
-
-.heading-area .text-box-right p {
-  position: absolute;
-  top: 40%;
-  left: 10%;
-  margin: 0;
-}
+  height: auto; }
+  .heading-area figure.image-box-left {
+    width: 45%;
+    margin: 0; }
+  .heading-area .text-box-right {
+    position: relative;
+    width: 48%;
+    font-size: 1.8rem; }
+    .heading-area .text-box-right p {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      margin: 0; }
 
 .contents-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 3rem auto;
   height: auto;
-  width: 1040px;
-}
+  width: 1040px; }
 
 span .contents-title {
   display: block;
-  text-align: center;
-}
+  text-align: center; }
 
 .image-area {
   margin: 3rem auto;
-  width: 1040px;
-}
+  width: 1040px; }
 
 .fig-left {
-  width: 50%;
-}
+  width: 50%; }
 
 .contents-area-inner {
-  width: 50%;
-}
+  width: 50%; }
 
 #home .heading-area {
   position: relative;
   width: 100%;
-  height: auto;
-}
-
-#home .heading-area #home .heading-image-box {
-  max-width: 2400px;
-  height: auto;
-}
-
-#home .heading-area #home .tagline {
-  position: absolute;
-  top: 50;
-  left: 50;
-}
-
-#home .heading-area #home .tagline .heading-title {
-  color: #fff;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-#home .heading-area #home .tagline p {
-  color: #fff;
-  font-size: 1.6rem;
-}
+  height: auto; }
+  #home .heading-area #home .heading-image-box {
+    max-width: 2400px;
+    height: auto; }
+  #home .heading-area #home .tagline {
+    position: absolute;
+    top: 50;
+    left: 50; }
+    #home .heading-area #home .tagline .heading-title {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: bold; }
+    #home .heading-area #home .tagline p {
+      color: #fff;
+      font-size: 1.6rem; }
 
 /*
 #home .image-area {
@@ -553,99 +477,68 @@ span .contents-title {
 }
 */
 #home .list-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   height: auto;
   text-align: center;
-  width: 1040px;
-}
-
-#home .list-area li {
-  margin: 10px;
-  height: 150px;
-  width: 240px;
-}
-
-#home .list-area li:first-child {
-  margin-left: 0;
-}
-
-#home .list-area li:last-child {
-  margin-right: 0;
-}
+  width: 1040px; }
+  #home .list-area li {
+    margin: 10px;
+    height: 150px;
+    width: 240px; }
+    #home .list-area li:first-child {
+      margin-left: 0; }
+    #home .list-area li:last-child {
+      margin-right: 0; }
 
 #home .icon-box {
   display: inline-block;
   height: 250px;
   width: 300px;
-  margin: 0 20px;
-}
-
-#home .icon-box .icon-image {
-  position: relative;
-  overflow: hidden;
-  height: 250px;
-  width: 300px;
-  margin-bottom: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#home .icon-box .icon-image img {
-  position: absolute;
-  height: 150px;
-  width: 120px;
-  top: 20%;
-  left: 30%;
-}
-
-#home .icon-box .icon-image figcaption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  height: 250px;
-  width: 300px;
-  background: #005452;
-  border-radius: 5px;
-  -webkit-transition: .3s;
-  transition: .3s;
-  opacity: 0;
-  color: #fff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 30px;
-  -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-}
-
-#home .icon-box .icon-image figcaption:h3 {
-  color: #fff;
-  font-size: 2.2rem;
-  font-weight: bold;
-}
-
-#home .icon-box .icon-image figcaption:p {
-  color: #fff;
-  font-size: 1.6rem;
-}
-
-#home .icon-box .icon-image figcaption:hover {
-  opacity: 1;
-  -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-}
+  margin: 0 20px; }
+  #home .icon-box .icon-image {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    width: 300px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center; }
+    #home .icon-box .icon-image img {
+      position: absolute;
+      height: 150px;
+      width: 120px;
+      top: 20%;
+      left: 30%; }
+    #home .icon-box .icon-image figcaption {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      height: 250px;
+      width: 300px;
+      background: #005452;
+      border-radius: 5px;
+      -webkit-transition: .3s;
+      transition: .3s;
+      opacity: 0;
+      color: #fff;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+      transition: all 0.6s ease; }
+      #home .icon-box .icon-image figcaption:h3 {
+        color: #fff;
+        font-size: 2.2rem;
+        font-weight: bold; }
+      #home .icon-box .icon-image figcaption:p {
+        color: #fff;
+        font-size: 1.6rem; }
+    #home .icon-box .icon-image figcaption:hover {
+      opacity: 1;
+      transition: all 0.6s ease; }
 
 #home .item-box {
   display: inline-block;
@@ -653,112 +546,88 @@ span .contents-title {
   width: 300px;
   background-color: #fff;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 8px gray;
-          box-shadow: 0 0 8px gray;
+  box-shadow: 0 0 8px gray;
   margin: 0 20px;
-  padding: 2rem;
-}
-
-#home .item-box .item-title {
-  color: #324158;
-  font-size: 2.3rem;
-  font-weight: bold;
-  margin: 1rem auto;
-  text-align: center;
-}
-
-#home .item-box p {
-  color: #5c6b80;
-  font-size: 1.6rem;
-  line-height: 1.8;
-  text-align: center;
-}
+  padding: 2rem; }
+  #home .item-box .item-title {
+    color: #324158;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 1rem auto;
+    text-align: center; }
+  #home .item-box p {
+    color: #5c6b80;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    text-align: center; }
 
 #home .item-box-right {
-  margin-left: 5rem;
-}
+  margin-left: 5rem; }
 
 #home .catch-image-area,
 #services .catch-image-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: auto;
-  width: 100%;
-}
-
-#home .catch-image-area .catch-box-primary,
-#home .catch-image-area .catch-box-secondary,
-#home .catch-image-area .catch-box-tertiary,
-#services .catch-image-area .catch-box-primary,
-#services .catch-image-area .catch-box-secondary,
-#services .catch-image-area .catch-box-tertiary {
-  position: relative;
-  width: 33.3%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-#home .catch-image-area .image-box-primary img,
-#home .catch-image-area .image-box-secondary img,
-#home .catch-image-area .image-box-tertiary img,
-#services .catch-image-area .image-box-primary img,
-#services .catch-image-area .image-box-secondary img,
-#services .catch-image-area .image-box-tertiary img {
-  margin: 0;
-}
-
-#home .catch-image-area .catch-contents-box,
-#services .catch-image-area .catch-contents-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#home .catch-image-area .catch-contents-box .catch-title,
-#services .catch-image-area .catch-contents-box .catch-title {
-  color: #fff;
-  font-size: 1.7rem;
-  font-weight: bolder;
-  text-align: center;
-}
-
-#home .catch-image-area .catch-contents-box .catch-lead,
-#home .catch-image-area .catch-contents-box .catch-link-detail,
-#services .catch-image-area .catch-contents-box .catch-lead,
-#services .catch-image-area .catch-contents-box .catch-link-detail {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: normal;
-  padding: 1rem;
-  text-align: center;
-}
+  width: 100%; }
+  #home .catch-image-area .catch-box-primary,
+  #home .catch-image-area .catch-box-secondary,
+  #home .catch-image-area .catch-box-tertiary,
+  #services .catch-image-area .catch-box-primary,
+  #services .catch-image-area .catch-box-secondary,
+  #services .catch-image-area .catch-box-tertiary {
+    position: relative;
+    width: 33.3%;
+    height: auto;
+    margin: 0;
+    padding: 0; }
+  #home .catch-image-area .image-box-primary img,
+  #home .catch-image-area .image-box-secondary img,
+  #home .catch-image-area .image-box-tertiary img,
+  #services .catch-image-area .image-box-primary img,
+  #services .catch-image-area .image-box-secondary img,
+  #services .catch-image-area .image-box-tertiary img {
+    margin: 0; }
+  #home .catch-image-area .catch-contents-box,
+  #services .catch-image-area .catch-contents-box {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    #home .catch-image-area .catch-contents-box .catch-title,
+    #services .catch-image-area .catch-contents-box .catch-title {
+      color: #fff;
+      font-size: 1.7rem;
+      font-weight: bolder;
+      text-align: center; }
+    #home .catch-image-area .catch-contents-box .catch-lead,
+    #home .catch-image-area .catch-contents-box .catch-link-detail,
+    #services .catch-image-area .catch-contents-box .catch-lead,
+    #services .catch-image-area .catch-contents-box .catch-link-detail {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: normal;
+      padding: 1rem;
+      text-align: center; }
 
 #services .article-header {
   background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/03/services_mv.png);
   /* 背景画像指定 */
   background-repeat: no-repeat;
   background-position: left top;
-  height: 600px;
+  height: auto;
   padding: 0;
-  width: 970px;
-}
-
-#services .article-header h1.page-title {
-  color: #fff;
-  font-weight: bold;
-  padding-top: 50px;
-  padding-left: 50px;
-}
+  width: 100%; }
+  #services .article-header h1.page-title {
+    color: #fff;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 50px; }
 
 #about .article-header .tagline {
   width: 45%;
   display: inline-block;
   font-size: 2rem;
   color: #217467;
-  text-align: center;
-}
+  text-align: center; }
 
 /*
 you can call the larger styles if you want, but there's really no need
@@ -783,4 +652,3 @@ header.php file to see what they are:
 .lt-ie8 .class { ... }
 
 */
-/*# sourceMappingURL=ie.css.map */
