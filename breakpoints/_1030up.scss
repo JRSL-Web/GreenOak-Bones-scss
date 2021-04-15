@@ -2,7 +2,7 @@
 Site Name: Green Oak PCC Ltd.
 Site URL: https://greenoakpcc.com/
 Author: JRSL
-Last Updated: 2021.04.12
+Last Updated: 2021.04.15
 
 Stylesheet: Desktop Stylsheet
 
@@ -72,7 +72,7 @@ POSTS & CONTENT STYLES
 
 .contents-area {
   display: flex;
-  margin: 3rem auto;
+  margin: 5rem auto;
   height: auto;
   width: 1040px;
 
@@ -87,12 +87,7 @@ POSTS & CONTENT STYLES
     font-size: 2rem;
   }
 }
-/*
-span .contents-title {
-  display: block;
-  text-align: center;
-}
-*/
+
 .image-area {
   margin: 3rem auto;
   width: 1040px;
@@ -106,6 +101,22 @@ span .contents-title {
   width: 50%;
 }
 
+.licence-box {
+  margin: 3rem auto;
+  text-align: center;
+
+  h4 {
+    text-align: center;
+    width: 100px;
+  }
+
+  .image-box {
+    margin: 0 auto;
+    height: 180px;
+    width: 468px;
+  }
+}
+
 /* ==================
   HOME STYLES
 =================== */
@@ -115,16 +126,16 @@ span .contents-title {
   width: 100%;
   height: auto;
 
-  #home .heading-image-box {
+  .heading-image-box {
     max-width: 2400px;
     //width: 100%;
     height: auto;
   }
 
-  #home .tagline {
+  .tagline {
     position: absolute;
-    top: 50;
-    left: 50;
+    top: 100px;
+    left: 500px;
 
       .heading-title {
         color: $white;
@@ -135,16 +146,10 @@ span .contents-title {
       p {
         color: $white;
         font-size: 2rem;
+        font-weight: bold;
       }
   }
 }
-/*
-#home .image-area {
-  height: 730px;
-  width: 100%;
-  margin-bottom: 3rem;
-}
-*/
 
 #home span .contents-title {
   color: $dark-green;
