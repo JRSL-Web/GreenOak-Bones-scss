@@ -22,7 +22,7 @@ import the mixins file so SASS can understand the variables.
 Site Name: Green Oak PCC Ltd.
 Site URL: https://greenoakpcc.com/
 Author: JRSL
-Last Updated: 2021.04.12
+Last Updated: 2021.04.15
 
 Stylesheet: Variables
 
@@ -880,19 +880,49 @@ FOOTER STYLES
   height: 633px;
   margin: 0 auto;
   padding: 0;
+  position: relative;
   width: 100%;
 }
 
-.footer #inner-footer .copyright {
+.footer #inner-footer {
+  width: 1040px;
+}
+
+.footer #inner-footer hr {
+  width: 70%;
+  color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.footer #inner-footer .footer-text-box {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.footer .copyright {
   color: #fff;
   font-size: 1.4rem;
   margin: 0;
-  padding-top: 600px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   text-align: center;
   text-decoration: none;
 }
 
-.footer #inner-footer .copyright a {
+.footer .copyright a {
   color: #fff;
   text-decoration: none;
 }
