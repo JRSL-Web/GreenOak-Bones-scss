@@ -1442,14 +1442,14 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #f01d4f;
+  color: #1111CC;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
 
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #d10e3c;
+  color: #0d0da2;
 }
 
 a:link, a:visited:link {
@@ -2662,6 +2662,33 @@ POSTS & CONTENT STYLES
     font-size: 2rem;
     color: #217467;
     text-align: center;
+  }
+  /* ==================
+  CONTACT STYLES
+=================== */
+  #contact .article-header {
+    background-blend-mode: overlay;
+    background: rgba(11, 80, 79, 0.7);
+    background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/04/contact_mv-scaled.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  #contact .article-header h1.page-title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-top: 200px;
+    text-align: center;
+  }
+  #contact .contact-form {
+    margin: 5rem auto 0;
+    height: auto;
+    width: 440px;
   }
   /*********************
 FOOTER STYLES

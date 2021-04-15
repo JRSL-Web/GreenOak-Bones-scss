@@ -390,6 +390,36 @@ POSTS & CONTENT STYLES
   }
 }
 
+/* ==================
+  CONTACT STYLES
+=================== */
+
+#contact .article-header {
+  background-blend-mode: overlay;
+  background: rgba($color: #0b504f, $alpha: 0.7);
+  background-image: url(https://greenoakpcc.com/wp/wp-content/uploads/2021/04/contact_mv-scaled.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+
+  h1.page-title {
+    color: $white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-top: 200px;
+    text-align: center;
+  }
+}
+#contact .contact-form {
+  margin: 5rem auto 0;
+  height: auto;
+  width: 440px;
+}
+
 
 /*********************
 FOOTER STYLES
