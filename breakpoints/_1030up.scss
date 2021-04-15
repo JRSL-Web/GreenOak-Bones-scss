@@ -414,12 +414,20 @@ POSTS & CONTENT STYLES
     text-align: center;
   }
 }
-#contact .contact-form {
-  margin: 5rem auto 0;
-  height: auto;
-  width: 440px;
-}
 
+#contact .contents-area {
+  display: block;
+
+  .lead {
+    text-align: center;
+  }
+  
+  .contact-form {
+    margin: 5rem auto 0;
+    height: auto;
+    width: 440px;
+  }
+}
 
 /*********************
 FOOTER STYLES

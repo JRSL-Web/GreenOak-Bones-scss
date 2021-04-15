@@ -1442,14 +1442,14 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #1111CC;
+  color: #1a0dab;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
 
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #0d0da2;
+  color: #140a80;
 }
 
 a:link, a:visited:link {
@@ -2685,7 +2685,13 @@ POSTS & CONTENT STYLES
     padding-top: 200px;
     text-align: center;
   }
-  #contact .contact-form {
+  #contact .contents-area {
+    display: block;
+  }
+  #contact .contents-area .lead {
+    text-align: center;
+  }
+  #contact .contents-area .contact-form {
     margin: 5rem auto 0;
     height: auto;
     width: 440px;

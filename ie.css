@@ -855,7 +855,15 @@ POSTS & CONTENT STYLES
   text-align: center;
 }
 
-#contact .contact-form {
+#contact .contents-area {
+  display: block;
+}
+
+#contact .contents-area .lead {
+  text-align: center;
+}
+
+#contact .contents-area .contact-form {
   margin: 5rem auto 0;
   height: auto;
   width: 440px;
