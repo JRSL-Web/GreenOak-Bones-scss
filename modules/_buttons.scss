@@ -80,6 +80,7 @@ and it will create a button dependant on those variables.
 BUTTON STYLES
 *********************/
 .inquiry-button {
+  margin-top: 5rem;
 
   .inquiry-button-link {
     background-color: $dark-green;
@@ -89,7 +90,8 @@ BUTTON STYLES
     color: $white;
     font-size: 1.4rem;
     font-weight: bold;
-    padding: 0.75rem 1.0rem;
+    padding: 1.5rem 2rem;
+    //padding: 0.75rem 1.0rem;
     text-decoration: none;
 
     &:active {

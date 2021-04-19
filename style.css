@@ -1031,6 +1031,10 @@ and it will create a button dependant on those variables.
 /*********************
 BUTTON STYLES
 *********************/
+.inquiry-button {
+  margin-top: 5rem;
+}
+
 .inquiry-button .inquiry-button-link {
   background-color: #217467;
   border-bottom: solid 2px #005452;
@@ -1040,7 +1044,7 @@ BUTTON STYLES
   color: #fff;
   font-size: 1.4rem;
   font-weight: bold;
-  padding: 0.75rem 1.0rem;
+  padding: 1.5rem 2rem;
   text-decoration: none;
 }
 
@@ -2310,7 +2314,7 @@ you can add resource intensive styles.
 Site Name: Green Oak PCC Ltd.
 Site URL: https://greenoakpcc.com/
 Author: JRSL
-Last Updated: 2021.04.15
+Last Updated: 2021.04.19
 
 Stylesheet: Desktop Stylsheet
 
@@ -2393,7 +2397,7 @@ POSTS & CONTENT STYLES
     width: 50%;
   }
   .licence-box {
-    margin: 3rem auto;
+    margin: 7rem auto 3rem;
     text-align: center;
   }
   .licence-box h4 {
@@ -2412,13 +2416,6 @@ POSTS & CONTENT STYLES
     position: relative;
     width: 100%;
     height: auto;
-    /*
-  .heading-image-box {
-    max-width: 2400px;
-    //width: 100%;
-    height: auto;
-  }
-  */
   }
   #home .heading-area .heading-video-box {
     border: none;
@@ -2645,6 +2642,10 @@ POSTS & CONTENT STYLES
   #services .heading-area {
     margin: 3rem auto;
     width: 1040px;
+  }
+  #services .inquiry-area {
+    margin: 5rem auto;
+    text-align: center;
   }
   /* ==================
   ABOUT STYLES
