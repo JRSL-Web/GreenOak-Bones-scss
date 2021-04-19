@@ -322,6 +322,7 @@ POSTS & CONTENT STYLES
           color: $white;
           font-size: 1.7rem;
           font-weight:bolder;
+          padding-top: 5rem;
           text-align: center;
         }
 
@@ -330,7 +331,8 @@ POSTS & CONTENT STYLES
           color: $white;
           font-size: 1.5rem;
           font-weight: normal;
-          padding: 1rem;
+          padding: 2rem 1.5rem;
+          //padding: 1rem;
           text-align: center;
         }
     }
