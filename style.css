@@ -2700,6 +2700,31 @@ POSTS & CONTENT STYLES
     font-weight: bolder;
     padding-left: 1rem;
     text-align: center;
+    width: 30%;
+  }
+  #about .image-box {
+    background-color: #0b504f;
+    position: relative;
+  }
+  #about .image-box img.wp-image-72 {
+    opacity: 0.7;
+  }
+  #about .image-box .mission {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: calc(50% - 20px);
+  }
+  #about .image-box .mission p {
+    /*position: absolute;
+      width: 100%;
+      left: 0; 
+      top: calc(50% - 20px);*/
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 0 8rem;
+    text-align: center;
   }
   /* ==================
   CONTACT STYLES
