@@ -45,6 +45,10 @@ POSTS & CONTENT STYLES
   width: 1040px;
 }
 
+.entry-content {
+  padding: 0;
+}
+
 .heading-area {
   display: flex;
   width: 100%;
@@ -57,14 +61,15 @@ POSTS & CONTENT STYLES
 
   .text-box-right {
     position: relative;
-    width: 48%;
-    //display: inline-block;
-    font-size: 1.8rem;
+    width: 54%;
+    //font-size: 1.8rem;
     
       p {
+        font-size: 2rem;
         position: absolute;
-        top: 40%;
-        left: 10%;
+        top: 30%;
+        left: 0;
+        padding-left: 2rem;
         margin: 0;
       }
   }
@@ -90,6 +95,7 @@ POSTS & CONTENT STYLES
 
 .image-area {
   margin: 3rem auto;
+  height: auto;
   width: 1040px;
 }
 
@@ -162,6 +168,10 @@ POSTS & CONTENT STYLES
   font-weight: bolder;
   display: block;
   text-align: center;
+}
+
+#home .fig-left {
+  margin-bottom: 6rem;
 }
 
 #home .list-area {
@@ -279,6 +289,7 @@ POSTS & CONTENT STYLES
 
 #home .item-box-right {
   margin-left: 5rem;
+  text-align: center;
 }
 
 /* ======================
@@ -391,10 +402,30 @@ POSTS & CONTENT STYLES
   width: 1040px;
 
   .tagline {
-    width: 48%;
+    width: 54%;
     display: inline-block;
-    font-size: 2rem;
-    color: $pcc-green;
+    text-align: center;
+
+    h2{
+      display: block;
+      color: $dark-green;
+      font-size: 3.5rem;
+      font-weight: bolder;
+      padding-left: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+#about .contents-area {
+
+
+  .contents-title {
+    display: block;
+    color: $dark-green;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding-left: 1rem;
     text-align: center;
   }
 }
