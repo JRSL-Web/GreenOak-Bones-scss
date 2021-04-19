@@ -126,16 +126,29 @@ POSTS & CONTENT STYLES
   width: 100%;
   height: auto;
 
+  /*
   .heading-image-box {
     max-width: 2400px;
     //width: 100%;
     height: auto;
   }
+  */
+
+  .heading-video-box {
+    border: none;
+    margin: 0 auto;
+    max-width: 2400px;
+    left: 0px;
+    top: -45px;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+  }
 
   .tagline {
     position: absolute;
-    top: 100px;
-    left: 500px;
+    top: 550px;
+    left: 600px;
 
       .heading-title {
         color: $white;
