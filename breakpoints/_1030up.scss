@@ -424,7 +424,6 @@ POSTS & CONTENT STYLES
 
 #about .contents-area {
 
-
   .contents-title {
     display: block;
     color: $dark-green;
@@ -432,7 +431,12 @@ POSTS & CONTENT STYLES
     font-weight: bolder;
     padding-left: 1rem;
     text-align: center;
-    width: 30%;
+    width: 45%;
+  }
+
+  p {
+    display: block;
+    width: 54%;
   }
 }
 
@@ -451,10 +455,6 @@ POSTS & CONTENT STYLES
     top: calc(50% - 20px);
 
     p {
-      /*position: absolute;
-      width: 100%;
-      left: 0; 
-      top: calc(50% - 20px);*/
       color: $white;
       font-size: 3.5rem;
       font-weight: bold;
@@ -464,6 +464,43 @@ POSTS & CONTENT STYLES
   }
   
 }
+
+#about .inquiry-area {
+  margin: 5rem auto;
+  text-align: center;
+
+  h2 {
+    color: $dark-green;
+    display: block;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+  }
+}
+
+/*#about .inquiry-area {
+  display: inline-flex;
+}
+*/
+#about .recruit-area {
+  display: block;
+  margin: 3rem auto 0;
+
+  h2 {
+    color: $dark-green;
+    display: block;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    //padding-left: 1rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
 
 
 /* ==================

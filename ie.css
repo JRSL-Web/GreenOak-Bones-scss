@@ -873,7 +873,12 @@ POSTS & CONTENT STYLES
   font-weight: bolder;
   padding-left: 1rem;
   text-align: center;
-  width: 30%;
+  width: 45%;
+}
+
+#about .contents-area p {
+  display: block;
+  width: 54%;
 }
 
 #about .image-box {
@@ -893,14 +898,45 @@ POSTS & CONTENT STYLES
 }
 
 #about .image-box .mission p {
-  /*position: absolute;
-      width: 100%;
-      left: 0; 
-      top: calc(50% - 20px);*/
   color: #fff;
   font-size: 3.5rem;
   font-weight: bold;
   padding: 0 8rem;
+  text-align: center;
+}
+
+#about .inquiry-area {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+#about .inquiry-area h2 {
+  color: #217467;
+  display: block;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/*#about .inquiry-area {
+  display: inline-flex;
+}
+*/
+#about .recruit-area {
+  display: block;
+  margin: 3rem auto 0;
+}
+
+#about .recruit-area h2 {
+  color: #217467;
+  display: block;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#about .recruit-area p {
+  font-size: 2rem;
   text-align: center;
 }
 
