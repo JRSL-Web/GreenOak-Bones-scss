@@ -567,20 +567,25 @@ POSTS & CONTENT STYLES
 
 #home .heading-area .tagline {
   position: absolute;
-  top: 550px;
-  left: 600px;
+  top: 70%;
+  left: calc(50% - 15%);
+  /*top: calc(50% - 20px);
+    /*top: 550px;
+    left: 600px;*/
 }
 
 #home .heading-area .tagline .heading-title {
   color: #fff;
   font-size: 3.5rem;
   font-weight: bolder;
+  text-align: center;
 }
 
 #home .heading-area .tagline p {
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 
 #home span .contents-title {

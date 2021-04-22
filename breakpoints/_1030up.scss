@@ -62,7 +62,6 @@ POSTS & CONTENT STYLES
   .text-box-right {
     position: relative;
     width: 54%;
-    //font-size: 1.8rem;
     
       p {
         font-size: 2rem;
@@ -145,19 +144,25 @@ POSTS & CONTENT STYLES
 
   .tagline {
     position: absolute;
-    top: 550px;
-    left: 600px;
+    top: 70%;
+    left: calc(50% - 15%);
+    //left: calc(50% - 15%);
+    /*top: calc(50% - 20px);
+    /*top: 550px;
+    left: 600px;*/
 
       .heading-title {
         color: $white;
         font-size: 3.5rem;
         font-weight: bolder;
+        text-align: center;
       }
 
       p {
         color: $white;
         font-size: 2rem;
         font-weight: bold;
+        text-align: center;
       }
   }
 }
