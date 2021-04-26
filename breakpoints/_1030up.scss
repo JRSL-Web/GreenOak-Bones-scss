@@ -18,18 +18,19 @@ NAVIGATION STYLES
 .nav {
 	border-bottom: 0;
   display: flex;
-  margin: 0 auto;
-	//margin: 0;
-  //position: relative;
+  //margin: 0 auto;
+	margin: 0 0 0 67%;
+  position: relative;
   height: auto;
+  //width: 1040px;
   width: 33%;
 
   ul {
-    margin: 0 auto;
-    /*position: absolute;
+    //margin: 0 auto;
+    position: absolute;
     top: 0;
     right: 0;
-    width: 50%;*/
+    //width: 33%;
   
 	  li {
 
@@ -159,10 +160,6 @@ POSTS & CONTENT STYLES
     position: absolute;
     top: 70%;
     left: calc(50% - 15%);
-    //left: calc(50% - 15%);
-    /*top: calc(50% - 20px);
-    /*top: 550px;
-    left: 600px;*/
 
       .heading-title {
         color: $white;
@@ -491,10 +488,6 @@ POSTS & CONTENT STYLES
   }
 }
 
-/*#about .inquiry-area {
-  display: inline-flex;
-}
-*/
 #about .recruit-area {
   display: block;
   margin: 3rem auto 0;
@@ -504,7 +497,6 @@ POSTS & CONTENT STYLES
     display: block;
     font-size: 3.5rem;
     font-weight: bolder;
-    //padding-left: 1rem;
     text-align: center;
   }
 
@@ -513,7 +505,6 @@ POSTS & CONTENT STYLES
     text-align: center;
   }
 }
-
 
 
 /* ==================
@@ -609,5 +600,45 @@ FOOTER STYLES
       color: $white;
       text-decoration: none;
     }
+  }
+}
+
+/*********************
+PAGE TOP BUTTON STYLES
+*********************/
+
+#page_top{
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: $dark-green;
+  opacity: 0.6;
+
+  a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+
+  a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 25px;
+    //line-height: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
   }
 }

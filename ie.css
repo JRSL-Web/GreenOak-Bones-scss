@@ -443,17 +443,16 @@ NAVIGATION STYLES
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
+  margin: 0 0 0 67%;
+  position: relative;
   height: auto;
   width: 33%;
 }
 
 .nav ul {
-  margin: 0 auto;
-  /*position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;*/
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .nav ul li a {
@@ -582,9 +581,6 @@ POSTS & CONTENT STYLES
   position: absolute;
   top: 70%;
   left: calc(50% - 15%);
-  /*top: calc(50% - 20px);
-    /*top: 550px;
-    left: 600px;*/
 }
 
 #home .heading-area .tagline .heading-title {
@@ -931,10 +927,6 @@ POSTS & CONTENT STYLES
   text-align: center;
 }
 
-/*#about .inquiry-area {
-  display: inline-flex;
-}
-*/
 #about .recruit-area {
   display: block;
   margin: 3rem auto 0;
@@ -1047,6 +1039,44 @@ FOOTER STYLES
 .footer .copyright a {
   color: #fff;
   text-decoration: none;
+}
+
+/*********************
+PAGE TOP BUTTON STYLES
+*********************/
+#page_top {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #217467;
+  opacity: 0.6;
+}
+
+#page_top a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f106';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
 }
 
 /*
