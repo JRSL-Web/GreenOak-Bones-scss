@@ -469,6 +469,56 @@ NAVIGATION STYLES
   color: #fff;
 }
 
+/* ==================
+上部に固定されるメニュー
+=================== */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#menu {
+  background-color: #217467;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* 縦方向中央揃え */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* 横方向中央揃え */
+}
+
+#menu li a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 80px;
+  line-height: 80px;
+  margin-top: 1rem;
+  padding: 0 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+#menu li a:hover, #menu li a:focus {
+  background-color: #fff;
+  color: #217467;
+}
+
+/*
+.h100{
+  height: 100px;
+}
+*/
 /*********************
 POSTS & CONTENT STYLES
 *********************/
