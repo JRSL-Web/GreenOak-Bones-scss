@@ -427,7 +427,7 @@ mobile. Make sure to double check these!
 Site Name: Green Oak PCC Ltd.
 Site URL: https://greenoakpcc.com/
 Author: JRSL
-Last Updated: 2021.04.19
+Last Updated: 2021.04.26
 
 Stylesheet: Desktop Stylsheet
 
@@ -440,10 +440,23 @@ NAVIGATION STYLES
 *********************/
 .nav {
   border-bottom: 0;
-  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  height: auto;
+  width: 33%;
 }
 
-.nav li a {
+.nav ul {
+  margin: 0 auto;
+  /*position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;*/
+}
+
+.nav ul li a {
   display: block;
   color: #217467;
   text-decoration: none;
@@ -452,7 +465,7 @@ NAVIGATION STYLES
   font-weight: bold;
 }
 
-.nav li a:hover, .nav li a:focus {
+.nav ul li a:hover, .nav ul li a:focus {
   background-color: #217467;
   color: #fff;
 }
